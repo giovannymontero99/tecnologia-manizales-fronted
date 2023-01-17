@@ -5,7 +5,7 @@ function Targets () {
     const [ products,setProducts ] = useState([]);
 
     const getData = async()=>{
-        const response = await fetch('https://tecnologia-manizales-backend-production.up.railway.app/api/v1');
+        const response = await fetch('http://192.168.1.150:3030/api/v1');
         const responseJson = await response.json();
         return setProducts( responseJson );
     }

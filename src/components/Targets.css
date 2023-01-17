@@ -1,3 +1,14 @@
+:root{
+    --targets-backGroundColor: #e1e8eb;
+    --target-descriptionColor: #152d35;
+}
+
+.targets-section{
+    position: relative;
+    padding-top: 50px;
+    background-color: var(--targets-backGroundColor);
+}
+
 .targets-list{
     list-style: none;
     display: flex;
@@ -38,7 +49,7 @@
 }
 
 .target-text{
-    background-color: #3b3b3d;
+    background-color: var(--header-backGroundColor);
     border-radius: 40px;
     padding: 40px;
     color: #fff;
