@@ -1,0 +1,62 @@
+.targets-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.target{
+    width: 80vw;
+    max-width: 390px;
+    border-radius: 48px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 15px;
+}
+.target-img{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    margin: auto;
+}
+.target-img > img{
+    flex: 0 0 100%;
+    border-radius: 48px;
+    width: 100%;
+    padding: 16px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.target-carousel{
+    display: flex;
+    justify-content: center;
+    padding: 0 16px 16px 16px;
+}
+.target-carousel > div {
+    padding: 8px;
+    font-size: 8px;
+}
+
+.target-text{
+    background-color: #3b3b3d;
+    border-radius: 40px;
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.target-title{
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+.target-description{
+    font-size: 14px;
+    height: 100%;
+    margin-bottom: 32px;
+}
+
+.target-cost{
+    font-size: 24px;
+}
